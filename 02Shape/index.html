@@ -10,13 +10,37 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="2.2vw"
-        height="2vh"
-        depth="5"
-        color="#F9701B"
-        position="0 1.6 -4"
-        shadow>
-      </a-box>
+          width="1vw"
+          height="1vh"
+          depth="1"
+          color="#F9701B"
+          position="0 1.6 -2"
+          rotation="0 45 90"
+          shadow></a-box>
+      <a-plane id="myPlane"
+          width="90vw"
+          height="100vh"
+          depth="-1"
+          position="0 -2.5 -4"
+          rotation="-90 45 180"></a-plane>
+      <a-cone id="myCone"
+          color="#3788e0"
+          width="1"
+          height="1"
+          depth="-2"
+          position="-6 0 -12"></a-cone>
+      <a-cone id="myCone"
+          color="#6fd426"
+          width="1"
+          height="1"
+          depth="-2"
+          position="12 0 9"></a-cone>
+      <a-cylinder id="myCylinder"
+          width="2vw"
+          depth="-3"
+          position="0 0 0"></a-cylinder>
     </a-scene>
+
+
   </body>
 </html>
